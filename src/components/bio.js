@@ -8,6 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -48,11 +49,11 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong>. {author?.summary || null}
           {` `}
-          <a href={`https://github.com/${social?.github || ``}`} target="_blank">
+          <OutboundLink href={`https://github.com/${social?.github || ``}`} target="_blank">
             Check out my GitHub.
-          </a> or <a href={`https://linkedin.com/in/${social?.linkedin || ``}`} target="_blank">
+          </OutboundLink> or <OutboundLink href={`https://linkedin.com/in/${social?.linkedin || ``}`} target="_blank">
             Connect with me.
-          </a>
+          </OutboundLink>
         </p>
       )}
     </div>
