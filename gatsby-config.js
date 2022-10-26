@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Tuomas Valkamo - website`,
+    title: `Tuomas Valkamo - Cyber Security, Linux, Coding 👾`,
     author: {
       name: `Tuomas Valkamo`,
-      summary: `- IT professional.`,
+      summary: ``,
     },
     description: `My website`,
     siteUrl: `https://valkamo.net`,
     social: {
       twitter: `#`,
+      github: `tuomasvalkamo`,
+      linkedin: `tuomasvalkamo`,
     },
   },
   plugins: [
