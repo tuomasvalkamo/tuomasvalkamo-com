@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "tuomasvalkamo-com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Tuomas Valkamo website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tuomas Valkamo <valkamo.tuomas@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -30,9 +30,9 @@
   "devDependencies": {
     "prettier": "^2.7.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://valkamo.net",
   "keywords": [
-    "gatsby"
+    "tuomas valkamo"
   ],
   "license": "0BSD",
   "repository": {
