@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tuomas Valkamo - Cyber Security, Linux, Coding 👾`,
+    title: `Tuomas Valkamo - 👾 Cyber Security, Linux & Coding`,
     author: {
       name: `Tuomas Valkamo`,
       summary: ``,
