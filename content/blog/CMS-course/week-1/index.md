@@ -4,7 +4,7 @@ date: "2022-10-27T17:46:37.121Z"
 description: Learning idempotence, master-minion architecture, Salt, remote execution, infrastructure as code. 
 ---
 
-This is the first week of the Configuration Management Systems course at Haaga-Helia University of Applied Sciences. The course lasts for the next 2.5 months until the end of 2022. This week we learned the basic concepts master-minion architecture, Salt fundamentals, remote code execution, and infrastructure as code.
+This is the first week of the Configuration Management Systems course at Haaga-Helia University of Applied Sciences. The course lasts for the next 2.5 months until the end of 2022. This week we learned the basic concepts of master-minion architecture, Salt fundamentals, remote code execution, and infrastructure as code.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 
@@ -18,7 +18,7 @@ Environment: VirtualBox VM running Debian 11 XFCE. VM has 4 GB of RAM and 40 GB 
 
 Karvinen 2020: [Command Line Basics Revisited](http://terokarvinen.com/2020/command-line-basics-revisited/)
 
-- Many commands have built-in help e.g *ls --help*. The manual -- *man* -- isn't the only place to read documention.
+- Many commands have built-in help e.g. *ls --help*. The manual -- *man* -- isn't the only place to read documentation.
 
 Karvinen 2018: [Salt States – I Want My Computers Like This](http://terokarvinen.com/2018/salt-states-i-want-my-computers-like-this)
 
@@ -179,7 +179,7 @@ local:
 
 ![error message](e11.PNG)
 
-Unsuprisingly something went wrong. My first thought was to add double quotes around the String values *fullname* and *password*.
+Unsurprisingly something went wrong. My first thought was to add double quotes around the String values *fullname* and *password*.
 
 ```
 salt-test-user:
@@ -196,9 +196,9 @@ salt-test-group:
 
 I ran the *state.apply* command again but the same error persisted.
 
-I googled the error message and found a [Stack Overflow answer](https://stackoverflow.com/questions/19356278/im-getting-found-character-that-cannot-start-any-token-while-scanning-for-the) that diagnosed the issue to be the use a tab indentation instead of spaces somewhere. Unfortunately in the editor I'm using (micro) there is no way of seeing the difference between the two. 
+I googled the error message and found a [Stack Overflow answer](https://stackoverflow.com/questions/19356278/im-getting-found-character-that-cannot-start-any-token-while-scanning-for-the) that diagnosed the issue to be the use a tab indentation instead of spaces somewhere. Unfortunately, in the editor I'm using (micro) there is no way of seeing the difference between the two. 
 
-I went though all the lines and deleted the indentations and replaced them with spaces. The problem spot turned out to be the list under *user.present*. I'm just glad my file wasn't longer than the ten lines I had.
+I went through all the lines and deleted the indentations and replaced them with spaces. The problem spot turned out to be the list under *user.present*. I'm just glad my file wasn't longer than the ten lines I had.
 
 Finally I ran the *state.apply* command again. This time it worked.
 
