@@ -46,15 +46,19 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong>. {author?.summary || null}
-          {` `}
-          <OutboundLink href={`https://github.com/${social?.github || ``}`} target="_blank">
-            Check out my GitHub.
-          </OutboundLink> or <OutboundLink href={`https://linkedin.com/in/${social?.linkedin || ``}`} target="_blank">
-            Connect with me.
-          </OutboundLink>
-        </p>
+        <div>
+          <p>
+            Written by <strong>{author.name}</strong> {author?.summary || null}
+            {` `}
+          </p>
+          <p style={{ marginTop: 5 }}>
+            <OutboundLink href={`https://github.com/${social?.github || ``}`} target="_blank">
+              Check out my GitHub.
+            </OutboundLink> or <OutboundLink href={`https://linkedin.com/in/${social?.linkedin || ``}`} target="_blank">
+              Connect with me.
+            </OutboundLink>
+          </p>
+        </div>
       )}
     </div>
   )

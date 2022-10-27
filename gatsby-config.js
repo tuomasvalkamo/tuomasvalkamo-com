@@ -3,7 +3,7 @@ module.exports = {
     title: `Tuomas Valkamo - 👾 Cyber Security, Linux & Coding`,
     author: {
       name: `Tuomas Valkamo`,
-      summary: ``,
+      summary: `who is studying IT at Haaga-Helia University of Applied Sciences.`,
     },
     description: `My website`,
     siteUrl: `https://valkamo.net`,
