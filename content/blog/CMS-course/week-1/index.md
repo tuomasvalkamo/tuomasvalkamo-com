@@ -12,9 +12,9 @@ Environment: VirtualBox VM running Debian 11 XFCE. VM has 4 GB of RAM and 40 GB 
 
 ---
 
-## Read and summarise.
+## Read and summarize.
 
-**Objective: Read the provided material and summarise with a few points.**
+**Objective: Read the provided material and summarize with a few points.**
 
 Karvinen 2020: [Command Line Basics Revisited](http://terokarvinen.com/2020/command-line-basics-revisited/)
 
