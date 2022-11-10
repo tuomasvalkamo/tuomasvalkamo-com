@@ -225,3 +225,13 @@ Total run time:   6.364 ms
 ```
 
 Salt reads the minion configuration files. It then loads at least some of the Salt subsystems. Before the state run is executed, Salt gathers pillar data for it, which is usually configuration data such as ports, file paths, or configuration parameters. After gathering pillar data, Salt tries to find the file helloworld/init.sls. It then renders the data inside the file and executes all the state functions called in the file.
+
+---
+
+## Sources
+
+Tero Karvinen:
+
+- https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=salt%20daemons
+- https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/
+- https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
