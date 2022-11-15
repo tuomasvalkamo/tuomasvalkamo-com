@@ -116,6 +116,7 @@ Inside the *red-car* repository, I created a new file called foobar.txt, added i
 
 ## Sources
 
+- Tero Karvinen, https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 - GitHub, https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
 - man git-reset
 - man git-add
