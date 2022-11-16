@@ -38,7 +38,7 @@ I set my git name and email. ([Setting your username in git](https://docs.github
     $ git config --global user.email
     ____@gmail.com
 
-I created a called hello.txt and committed it to my repository.
+I created a file called hello.txt and committed it to my repository.
 
     $ touch hello.txt
     $ git add .
