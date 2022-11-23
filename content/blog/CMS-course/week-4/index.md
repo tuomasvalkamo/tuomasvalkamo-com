@@ -1,5 +1,5 @@
 ---
-title: Scripting - Configuration Management Systems Week 3
+title: Scripting - Configuration Management Systems Week 4
 date: "2022-11-22T17:46:37.121Z"
 description: Shell scripts
 ---
