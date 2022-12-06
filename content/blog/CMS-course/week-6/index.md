@@ -166,6 +166,8 @@ I was able to run commands on the slave machine with Salt.
 
 **Objective: Create the first version of your own Salt module. The mini project must have some sort of use case even if it's made up. Create a page (Github, Gitlab) for project that outlines the basic information about the project. The functionality of the module must be tested but it doesn't have to be finished.**
 
+I decided to make a module that installs a starter pack of useful programs. The module can be found [here](https://github.com/tuomasvalkamo/starter-module).
+
 ---
 
 ## Sources
