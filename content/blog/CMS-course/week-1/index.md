@@ -1,8 +1,12 @@
 ---
-title: Hello Salt - Configuration Management Systems Week 1
+title: Infrastructure as Code Basics
 date: "2022-10-27T17:46:37.121Z"
 description: Learning idempotence, master-minion architecture, Salt, remote execution, infrastructure as code. 
+tags:
+  - CMS
 ---
+
+Week 1 of Configuration Management Systems course.
 
 This is the first week of the Configuration Management Systems course at Haaga-Helia University of Applied Sciences. The course lasts for the next 2.5 months until the end of 2022. This week we learned the basic concepts of master-minion architecture, Salt fundamentals, remote code execution, and infrastructure as code.
 

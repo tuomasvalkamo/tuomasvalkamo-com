@@ -2,7 +2,11 @@
 title: Create Virtual Machines with Vagrant
 date: "2022-12-05T17:46:37.121Z"
 description: How to use Vagrant, master-slave architecture with Salt, creating my own Salt module.
+tags:
+  - CMS
 ---
+
+Week 6 of Configuration Management Systems course.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 

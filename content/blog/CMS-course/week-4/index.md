@@ -1,8 +1,12 @@
 ---
-title: Scripting - Configuration Management Systems Week 4
+title: Scripting with Bash and Python
 date: "2022-11-22T17:46:37.121Z"
-description: Shell scripts
+description: Writing shell scripts, analyzing previous course projects.
+tags:
+  - CMS
 ---
+
+Week 4 of Configuration Management Systems course.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 

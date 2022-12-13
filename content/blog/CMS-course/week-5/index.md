@@ -1,8 +1,12 @@
 ---
-title: Salt Windows - Configuration Management Systems Week 5
+title: Using Salt with Windows
 date: "2022-12-01T17:46:37.121Z"
 description: Manage Windows with Salt
+tags:
+  - CMS
 ---
+
+Week 5 of Configuration Management Systems course.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 

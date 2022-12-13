@@ -10,6 +10,7 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const tags = post.frontmatter.tags
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -20,7 +21,21 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <div className="post-info">
+            <p className="post-info-date">{post.frontmatter.date}</p>
+            {tags &&
+              <>
+                <div className="post-info-separator">| </div>
+                <div className="tags">
+                  {tags && tags.map(tag => {
+                    return (
+                      <small className="tag">{tag}</small>
+                    )
+                  })}
+                </div>
+              </>
+            }
+          </div>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -91,6 +106,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

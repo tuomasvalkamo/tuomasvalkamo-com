@@ -1,8 +1,12 @@
 ---
-title: Git - Configuration Management Systems Week 3
+title: How to Use GitHub with SSH Keys
 date: "2022-11-15T17:46:37.121Z"
-description: How to use Git
+description: Generating SSH keys, GitHub settings, push changes using SSH.
+tags:
+  - CMS
 ---
+
+Week 3 of Configuration Management Systems course.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 

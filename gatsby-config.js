@@ -6,7 +6,7 @@ module.exports = {
       summary: `who is studying IT at Haaga-Helia University of Applied Sciences.`,
     },
     description: `My website`,
-    siteUrl: `https://valkamo.net`,
+    siteUrl: `https://tuomasvalkamo.com`,
     social: {
       twitter: `#`,
       github: `tuomasvalkamo`,

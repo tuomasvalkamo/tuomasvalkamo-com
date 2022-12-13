@@ -1,8 +1,12 @@
 ---
-title: Package-File-Service - Configuration Management Systems Week 2
+title: Running Daemons with Salt
 date: "2022-11-09T17:46:37.121Z"
-description: Learning idempotence, master-minion architecture, Salt, remote execution, infrastructure as code. 
+description: How to configure Daemons using Salt. Running Salt master and minion on the same machine.
+tags:
+  - CMS
 ---
+
+Week 2 of Configuration Management Systems course.
 
 Course material: https://terokarvinen.com/2022/palvelinten-hallinta-2022p2/
 
