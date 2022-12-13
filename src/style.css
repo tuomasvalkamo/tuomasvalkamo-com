@@ -183,6 +183,12 @@ ol li {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
+@media (min-width: 673px) {
+  li {
+    margin-left: 17px;
+  }
+}
+  
 li > p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
